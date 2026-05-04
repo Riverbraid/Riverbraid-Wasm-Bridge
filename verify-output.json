@@ -1,0 +1,22 @@
+{
+  "repo": "Riverbraid-Wasm-Bridge",
+  "ring": 2,
+  "class": "bridge",
+  "status": "VERIFIED",
+  "verification_scope": "ring2-bridge-anchor-and-file-surface",
+  "claim_boundary": "infrastructure-classification-only",
+  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "anchor_matches": true,
+  "structural_artifact_present": true,
+  "required_files": [
+    ".anchor",
+    "AUTHORITY.md",
+    "RING.md",
+    "package.json",
+    "verify.mjs"
+  ],
+  "missing_files": [],
+  "failure_codes": [],
+  "digest": "sha256:bf7ae70019f39044301e07bf17371f58f38ccc8498ed891214b825543bf05bc4"
+}
