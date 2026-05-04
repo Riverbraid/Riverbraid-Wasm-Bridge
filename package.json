@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "riverbraid-wasm-bridge",
     "version":  "1.0.0",
     "description":  "This is the cognitive floor of the Riverbraid Protocol. It provides stateless, deterministic verification of constellation maps.",

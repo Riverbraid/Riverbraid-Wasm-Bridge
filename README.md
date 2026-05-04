@@ -1,4 +1,4 @@
-﻿# Riverbraid-Wasm-Bridge
+# Riverbraid-Wasm-Bridge
 > **Status:** ROOT_AUDIT_VERIFIED (v1.5.0)
 > **Claim Boundary:** Declared Conditions Only[cite: 2]
 
