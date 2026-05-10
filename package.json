@@ -1,25 +1,8 @@
 {
-    "name":  "riverbraid-wasm-bridge",
-    "version":  "1.0.0",
-    "description":  "This is the cognitive floor of the Riverbraid Protocol. It provides stateless, deterministic verification of constellation maps.",
-    "main":  "index.js",
-    "scripts":  {
-                    "test":  "npm run verify:feature-flow",
-                    "verify:feature-flow":  "node verify-feature-flow.cjs",
-                    "test:riverbraid":  "node verify-vector.cjs"
-                },
-    "repository":  {
-                       "type":  "git",
-                       "url":  "git+https://github.com/Riverbraid/Riverbraid-Wasm-Bridge.git"
-                   },
-    "keywords":  [
-
-                 ],
-    "author":  "",
-    "license":  "ISC",
-    "type":  "commonjs",
-    "bugs":  {
-                 "url":  "https://github.com/Riverbraid/Riverbraid-Wasm-Bridge/issues"
-             },
-    "homepage":  "https://github.com/Riverbraid/Riverbraid-Wasm-Bridge#readme"
+  "name": "riverbraid-wasm-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "verify": "node verify.mjs" },
+  "riverbraid": { "ring": 2, "role": "wasm-bridge-surface", "invariant": "WASM_ABI_STATIONARY", "claim_boundary": "deterministic-infrastructure-contract-only" }
 }

@@ -1,22 +1,23 @@
 {
+  "schema": "riverbraid.infrastructure.verify.output",
+  "version": "1.0.0",
   "repo": "Riverbraid-Wasm-Bridge",
   "ring": 2,
-  "class": "bridge",
+  "role": "wasm-bridge-surface",
+  "invariant": "WASM_ABI_STATIONARY",
+  "contract_type": "wasm-abi-contract",
   "status": "VERIFIED",
-  "verification_scope": "ring2-bridge-anchor-and-file-surface",
-  "claim_boundary": "infrastructure-classification-only",
-  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "anchor_matches": true,
-  "structural_artifact_present": true,
+  "canonical_signal": "wasm-bridge:ABI_STATIONARY",
+  "canonical_reason": "Match",
+  "digest": "sha256:43604032613815315aedae9580e73031c50dc93d16a5b3ceefdf8d3c8eeb6dab",
   "required_files": [
-    ".anchor",
-    "AUTHORITY.md",
-    "RING.md",
     "package.json",
-    "verify.mjs"
+    "index.js",
+    "verify.mjs",
+    "protocol.steps",
+    "AUTHORITY.md",
+    "RING.md"
   ],
   "missing_files": [],
-  "failure_codes": [],
-  "digest": "sha256:deb63220fe37bac1c2b41fa43c520b30da8409ae991b8d483ac20bd905a82364"
+  "failure_codes": []
 }
