@@ -1,22 +1,30 @@
 # Riverbraid-Wasm-Bridge
-> **Status:** ROOT_AUDIT_VERIFIED (v1.5.0)
-> **Claim Boundary:** Declared Conditions Only[cite: 2]
 
-This repository is a verified node within the Riverbraid Constellation.
-It adheres to the Stationary State invariant and is audited against 
-the Riverbraid-Manifest-Gold authority gate.[cite: 1, 2]
+**Status:** ROOT_AUDIT_VERIFIED (v1.5.0)
+**Claim Boundary:** Declared Conditions Only
 
----
-# Riverbraid WASM Bridge
+## Role in Riverbraid
 
-This is the cognitive floor of the Riverbraid Protocol. It provides stateless, deterministic verification of constellation maps.
+Riverbraid-Wasm-Bridge is a WebAssembly bridge surface for Riverbraid verification and integration experiments.
 
-## Verification Status
-- **Current State:** STATIONARY
-- **Integrity Score:** 29/29
-- **Target Architecture:** wasm32-wasip1
+Riverbraid-Core remains the normative source for protocol semantics. This repository does not redefine canonical Riverbraid protocol rules.
 
-## Protocol Usage
-The bridge is designed to be used in a pipeline:
-`tsh scan --json | wasmtime riverbraid-wasm-bridge.wasm`
+## Scope Boundary
 
+This repository may support deterministic WebAssembly based verification paths. Any local state, target architecture, or usage language is bounded to this repository surface.
+
+## Verification Boundary
+
+Verification is based on repository evidence and any declared local verification commands. This README does not replace code, test vectors, registry entries, signatures, seals, or workflow evidence.
+
+## Usage Boundary
+
+Example pipeline language is descriptive only. It does not establish a required protocol interface unless supported by code, tests, and registry evidence.
+
+## Non Claims
+
+This repository does not claim certification, production readiness, external audit, legal approval, complete AI safety, absolute security, or absence of defects.
+
+## License
+
+MIT.
